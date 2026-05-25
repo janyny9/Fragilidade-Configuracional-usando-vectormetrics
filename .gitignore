@@ -1,0 +1,11 @@
+desktop.ini
+.Rhistory
+.RData
+
+*.shp
+*.dbf
+*.shx
+*.prj
+*.gpkg
+*.tif
+*.csv
