@@ -194,6 +194,37 @@ This repository provides a reproducible workflow to:
 | CAI | Core Area Index |
 | ENN | Euclidean Nearest Neighbor |
 
+# Capacitação
+
+**Métricas da Paisagem Aplicadas à Fragilidade Configuracional**
+
+Carga horária: **3h30**
+
+## Ementa
+
+Introdução ao uso do R para análise de métricas da paisagem aplicadas à avaliação da fragilidade configuracional de fragmentos florestais. O tutorial aborda leitura de dados espaciais, cálculo de métricas com `vectormetrics`, classificação da fragilidade, diagnóstico de perfis não classificados (NC) e exportação dos resultados.
+
+## Conceptual model
+
+```mermaid
+flowchart TD
+    A[Forest patches] --> B[Landscape metrics]
+    B --> C[Area]
+    B --> D[Shape index]
+    B --> E[Core area]
+    B --> F[CAI]
+    B --> G[ENN]
+
+    C --> H[Configurational fragility]
+    D --> H
+    E --> H
+    F --> H
+    G --> H
+
+    H --> I[High fragility]
+    H --> J[Intermediate fragility]
+    H --> K[Low fragility]
+    H --> L[NC diagnosis]
 ## Outputs
 
 - Landscape metrics table
