@@ -1,0 +1,25 @@
+Métricas da Paisagem Aplicadas à Fragilidade Configuracional
+Ementa
+
+Introdução aos conceitos básicos de Ecologia da Paisagem e ao ambiente R para análise espacial. Leitura e organização de dados vetoriais. Cálculo e interpretação de métricas da paisagem utilizando o pacote vectormetrics, com ênfase em área, índice de forma, área núcleo, índice de área núcleo (CAI) e distância ao vizinho mais próximo (ENN). Aplicação das métricas na construção de classes de fragilidade configuracional em fragmentos florestais. Diagnóstico e interpretação de perfis não classificados (NC), exportação dos resultados e discussão sobre reprodutibilidade científica.
+
+Objetivo
+
+Capacitar participantes para calcular, interpretar e aplicar métricas da paisagem na avaliação da fragilidade configuracional de fragmentos florestais utilizando R.
+
+Conteúdo
+-Introdução ao R e RStudio
+-Importação e visualização de dados espaciais
+-Conceitos básicos de Ecologia da Paisagem
+-Cálculo de métricas da paisagem com vectormetrics
+-Construção da classificação de fragilidade configuracional
+-Diagnóstico dos perfis não classificados (NC)
+-Exportação e organização dos resultados
+
+Público-alvo
+
+Estudantes, pesquisadores e profissionais com interesse em Ecologia da Paisagem, geotecnologias e análise espacial.
+
+Carga horária
+
+3h(teórico-prática)
