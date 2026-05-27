@@ -32,7 +32,10 @@ rm(list = ls())
 # O pacote ggplot2 pode ser usado para gráficos.
 
 # Instala o pacote 'vectormetrics' diretamente do GitHub
+install.packages("remotes")
+library(remotes)
 remotes::install_github("r-spatialecology/vectormetrics")
+
 library(vectormetrics)
 library(sf)
 library(dplyr)
