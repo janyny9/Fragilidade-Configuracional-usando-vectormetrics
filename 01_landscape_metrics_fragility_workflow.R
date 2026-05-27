@@ -31,6 +31,8 @@ rm(list = ls())
 # O pacote tidyr ajuda a reorganizar dados.
 # O pacote ggplot2 pode ser usado para gráficos.
 
+# Instala o pacote 'vectormetrics' diretamente do GitHub
+remotes::install_github("r-spatialecology/vectormetrics")
 library(vectormetrics)
 library(sf)
 library(dplyr)
