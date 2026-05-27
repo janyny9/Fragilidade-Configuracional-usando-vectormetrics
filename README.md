@@ -23,7 +23,13 @@ At the end of this tutorial, participants will be able to:
 ## Understanding the RStudio Interface
 
 RStudio is divided into four main panels:
+## RStudio Interface
 
+The figure below presents the four main environments of RStudio.
+
+![RStudio Interface](figures/rstudio_4_ambientes.png)
+
+Source: adapted by the author.
 ### 1. Script Editor (Top Left)
 
 Used to write, edit, and save scripts (.R).
